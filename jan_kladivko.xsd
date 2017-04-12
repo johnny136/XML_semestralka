@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:element name="realitni_portal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="byt" type="byt" maxOccurs="unbounded"/>
+                <xs:element name="dum" type="dum" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+                    <xs:complexType name="byt">
+                        <xs:sequence>
+                            <xs:element name="stav_budovy" type="xs:string"/>
+                            <xs:element name="balkon">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="plocha" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="stav_bytu" type="xs:string"/>
+                            <xs:element name="vytah">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ano"/>
+                                        <xs:enumeration value="ne"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="poschodi" type="xs:string" />
+                            <xs:element name="specifikace" type="spc"/>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                    <xs:complexType name="dum">
+                        <xs:sequence>
+                            <xs:element name="zastavena_plocha" type="xs:string"/>
+                            <xs:element name="plocha_parcely" type="xs:string"/>
+                            <xs:element name="oploceni">
+                                <xs:simpleType>
+                                     <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ano"/>
+                                        <xs:enumeration value="ne"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="sklep">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ano"/>
+                                        <xs:enumeration value="ne"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="podkrovi">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ano"/>
+                                        <xs:enumeration value="ne"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="zahrada">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="velikost" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="stav_domu" type="xs:string"/>
+                            <xs:element name="specifikace" type="spc"/>    
+                        </xs:sequence>
+                    </xs:complexType>
+
+        <xs:complexType name="spc">
+            <xs:sequence>
+                <xs:element name="cislo_zakazky">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:length value="9"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="adresa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="mesto" type="xs:string" />
+                            <xs:element name="obec" type="xs:string" />
+                            <xs:element name="ulice">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="cislo_popisne" type="xs:string" />
+                                            <xs:attribute name="cislo_orientacni" type="xs:string" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="podlazi_budovy" type="xs:string" />
+                <xs:element name="konstrukce_budovy" type="xs:string" />
+                <xs:element name="uzitna_plocha" type="xs:string" />
+                <xs:element type="xs:string" name="vybavenost"/>
+                <xs:element name="parkovani">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="pocet_mist" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="mistnosti" type="xs:string"/>
+                <xs:element name="socialni_zarizeni">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="ano"/>
+                            <xs:enumeration value="ne"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="lokalita" type="xs:string"/>
+                <xs:element name="dopravni_dostupnost" type="xs:string"/>
+                <xs:element name="obcanska_vybavenost" type="xs:string"/>
+                <xs:element name="ihned_k_dispozici" type="xs:string"/>
+                <xs:element name="zdroj_elektriny" type="xs:string"/>
+                <xs:element name="vodni_zdroj" type="xs:string"/>
+                <xs:element name="odpad" type="xs:string"/>
+                <xs:element name="topeni" type="xs:string"/>
+                <xs:element name="plyn" type="xs:string"/>
+                <xs:element name="telefon" type="xs:string"/>
+                <xs:element name="internet" type="xs:string"/>
+                <xs:element name="energeticka_narocnost">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="trida" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cena">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="mena">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="CZK"/>
+                                            <xs:enumeration value="EUR"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cena_za_metrCtverecni" type="xs:string"/>
+                <xs:element name="provize_v_cene">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="procent" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="moznost_hypoteky">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="ano"/>
+                            <xs:enumeration value="ne"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="prodejce">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="jmeno" type="xs:string"/>
+                            <xs:element name="firma" type="xs:string"/>
+                            <xs:element name="hodnoceni" type="xs:string"/>
+                            <xs:element name="kontakt">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="telefon">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:length value="9"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                            <xs:attribute name="email" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                 </xs:element>         
+            </xs:sequence>
+        </xs:complexType> 
+</xs:schema>

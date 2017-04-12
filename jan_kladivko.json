@@ -1,0 +1,304 @@
+
+    {
+        "Realitni portal s nemovitostmi":
+        {
+            
+            "Byt":
+            {
+                "Specifikace":
+                {
+                    "Cislo zakazky": "4698-SDBQ",
+                    "Adresa": 
+                    {
+                        "Mesto": "Praha 2",
+                        "Obec": "Nove Mesto",
+                        "Ulice": 
+                        {
+                            "Cislo popisne": "1814",
+                            "Cislo orientanci": "5"
+                        }
+                    },
+                     "Podlazi budovy": "6",
+                     "Konstrukce budovy": "cihlova",
+                     "Uzitna plocha": "102m^2",
+                     "Vybavenost": "zarizeno",
+                     "Parkovani": "modra zona",
+                     "Mistnosti": "3+1",
+                     "Socialni zarizeni": "ano",
+                     "Lokalita": "rusna cast",
+                     "Dopravni dostupnost": "Auto, MHD",
+                     "Obcanska vybavenost": "Restaurace, Obchod, Kulturni zarizeni",
+                     "Ihned k dispozici": "ano",
+                     "Zdroj elektriny": "230V",
+                     "Vodni zdroj": "verejny",
+                     "Odpad": "verejny odpad",
+                     "Topeni": "ustredni - elektrina",
+                     "Plny": "verejny privod",
+                     "Telefon": "pripojen",
+                     "Internet": "pripojen",
+                     "Energeticka narocnost": "Mimoradne nehospodarna",
+                     "Cena": "9250000",
+                         "mena": "CZK",
+                     "Cena za m^2": "90686",
+                     "Provize v cene": "ano",
+                     "Moznost hypoteky": "ano",
+                     "Prodejce": 
+                    {
+                        "Jmeno": "Stanislav Bozek",
+                        "Firma": "Reality 11",
+                        "Hodnoceni": "98%",
+                        "Kontakt": 
+                        {
+                            "Telefon": "728332641",
+                            "Email": "stanislav.bozek@reality11.cz"
+                        }
+                    }                
+                },
+                "Stav budovy": "dobry stav",
+                "Balkon": "ne",
+                    "plocha": "0m^2",
+                "Stav bytu": "dobry stav",
+                "Vytah": "ne",
+                "Poschodi": "prizemi"
+            },
+            "Byt":
+            {
+                "Specifikace":
+                {
+                    "Cislo zakazky": "4698-SDBQ",
+                    "Adresa": 
+                    {
+                        "Mesto": "Praha 8",
+                        "Obec": "Liben",
+                        "Ulice": 
+                        {
+                            "Cislo popisne": "1475",
+                            "Cislo orientanci": "180"
+                        }
+                    },
+                     "Podlazi budovy": "8",
+                     "Konstrukce budovy": "zdena",
+                     "Uzitna plocha": "63m^2",
+                     "Vybavenost": "zarizeno",
+                     "Parkovani": "modra zona",
+                     "Mistnosti": "2+kk",
+                     "Socialni zarizeni": "ano",
+                     "Lokalita": "klidna cast",
+                     "Dopravni dostupnost": "Auto, MHD",
+                     "Obcanska vybavenost": "skola, skolka, Restaurace, Obchod, Kulturni zarizeni",
+                     "Ihned k dispozici": "ano",
+                     "Zdroj elektriny": "230V/400V",
+                     "Vodni zdroj": "verejny",
+                     "Odpad": "verejna kanalizace",
+                     "Topeni": "ustredni - dalkove",
+                     "Plny": "verejny privod",
+                     "Telefon": "pripojen",
+                     "Internet": "pripojen",
+                     "Energeticka narocnost": "usporna",
+                     "Cena": "5640000",
+                         "mena": "CZK",
+                     "Cena za m^2": "89524",
+                     "Provize v cene": "ano",
+                     "Moznost hypoteky": "ano",
+                     "Prodejce": 
+                    {
+                        "Jmeno": "Katerina Lepsova",
+                        "Firma": "Duna House",
+                        "Hodnoceni": "91%",
+                        "Kontakt": 
+                        {
+                            "Telefon": "606566222",
+                            "Email": "k.lepsova@dunahouse.com"
+                        }
+                    }                
+                },
+                "Stav budovy": "po rekonstrukci",
+                "Balkon": "ano",
+                    "plocha": "10m^2",
+                "Stav bytu": "novy",
+                "Vytah": "ano",
+                "Poschodi": "2."
+            }, 
+            "Dum":
+            {   
+                "Specifikace":
+                {
+                    "Cislo zakazky": "7894-POLQ",
+                    "Adresa": 
+                    {
+                        "Mesto": "Velke Mezirici",
+                        "Obec": "zdar nad Sazavou",
+                        "Ulice": 
+                        {
+                            "Cislo popisne": "2010",
+                            "Cislo orientanci": "-"
+                        }
+                    },
+                     "Podlazi budovy": "3",
+                     "Konstrukce budovy": "cihlova",
+                     "Uzitna plocha": "350m^2",
+                     "Vybavenost": "castecne zarizeno",
+                     "Parkovani": "garaz",
+                     "Mistnosti": "5+1",
+                     "Socialni zarizeni": "ano",
+                     "Lokalita": "klidna cast",
+                     "Dopravni dostupnost": "Auto, Dalnice, I. trida, II. trida, Vlak",
+                     "Obcanska vybavenost": "skola, skolka, Nakupni centrum, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni, Koupaliste",
+                     "Ihned k dispozici": "ne",
+                     "Zdroj elektriny": "230V verejny",
+                     "Vodni zdroj": "verejny",
+                     "Odpad": "verejny odpad",
+                     "Topeni": "ustredni - plynove",
+                     "Plny": "zaveden",
+                     "Telefon": "zaveden",
+                     "Internet": "zaveden",
+                     "Energeticka narocnost": "usporna",
+                     "Cena": "15000000",
+                         "mena": "CZK",
+                     "Cena za m^2": "39894",
+                     "Provize v cene": "ne",
+                     "Moznost hypoteky": "ano",
+                     "Prodejce": 
+                    {
+                        "Jmeno": "Jiri Prokes",
+                        "Firma": "RK Michalek and Partners",
+                        "Hodnoceni": "86%",
+                        "Kontakt": 
+                        {
+                            "Telefon": "724936711",
+                            "Email": "prokes.jiri@mandp.cz"
+                        }
+                    }                
+                },
+                "Zastavena plocha": "376m^2",
+                "Plocha parcely": "7803m^2",
+                "Oploceni": "ano",
+                "Sklep": "ano",
+                "Podkrovi": "ano",
+                "Zahrada": "ano",
+                    "Velikost": "7427m^2",
+                "Stav domu": "dobry stav"
+            }, 
+            "Dum":
+            {   
+                "Specifikace":
+                {
+                    "Cislo zakazky": "9312-ZYXO",
+                    "Adresa": 
+                    {
+                        "Mesto": "Nova Ves",
+                        "Obec": "Melnik",
+                        "Ulice": 
+                        {
+                            "Cislo popisne": "48",
+                            "Cislo orientanci": "3"
+                        }
+                    },
+                     "Podlazi budovy": "3",
+                     "Konstrukce budovy": "zdena",
+                     "Uzitna plocha": "440m^2",
+                     "Vybavenost": "castecne zarizeno",
+                     "Parkovani": "garaz",
+                     "Mistnosti": "10+21",
+                     "Socialni zarizeni": "ano",
+                     "Lokalita": "klidna cast",
+                     "Dopravni dostupnost": "Auto, Autobus, Dalnice, I. trida, II. trida",
+                     "Obcanska vybavenost": "skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni",
+                     "Ihned k dispozici": "ano",
+                     "Zdroj elektriny": "230V verejny",
+                     "Vodni zdroj": "verejny",
+                     "Odpad": "septik",
+                     "Topeni": "ustredni - tuha paliva",
+                     "Plny": "zaveden",
+                     "Telefon": "zaveden",
+                     "Internet": "zaveden",
+                     "Energeticka narocnost": "usporna",
+                     "Cena": "13990000",
+                         "mena": "CZK",
+                     "Cena za m^2": "31795",
+                     "Provize v cene": "ne",
+                     "Moznost hypoteky": "ano",
+                     "Prodejce": 
+                    {
+                        "Jmeno": "Petr Hlavaty",
+                        "Firma": "M and M reality holding a.s.",
+                        "Hodnoceni": "80%",
+                        "Kontakt": 
+                        {
+                            "Telefon": "800949711",
+                            "Email": "petr.hlavaty@mmreality.cz"
+                        }
+                    }                
+                },
+                "Zastavena plocha": "152m^2",
+                "Plocha parcely": "822m^2",
+                "Oploceni": "ano",
+                "Sklep": "ano",
+                "Podkrovi": "ne",
+                "Zahrada": "ano",
+                    "Velikost": "670m^2",
+                "Stav domu": "dobry stav"
+            }, 
+            "Dum":
+            {   
+                "Specifikace":
+                {
+                    "Cislo zakazky": "1346-AZYO",
+                    "Adresa": 
+                    {
+                        "Mesto": "Praha 9",
+                        "Obec": "Horni Pocernice",
+                        "Ulice": 
+                        {
+                            "Cislo popisne": "203",
+                            "Cislo orientanci": "94"
+                        }
+                    },
+                     "Podlazi budovy": "2",
+                     "Konstrukce budovy": "cihlova",
+                     "Uzitna plocha": "230m^2",
+                     "Vybavenost": "nezarizeno",
+                     "Parkovani": "prijezdova cesta",
+                     "Mistnosti": "4kk",
+                     "Socialni zarizeni": "ano",
+                     "Lokalita": "rusna cast",
+                     "Dopravni dostupnost": "Auto, Dalnice, I. trida, Vlak, MHD",
+                     "Obcanska vybavenost": "skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni",
+                     "Ihned k dispozici": "ne",
+                     "Zdroj elektriny": "230V verejny",
+                     "Vodni zdroj": "verejny",
+                     "Odpad": "verejny odpad",
+                     "Topeni": "ustredni - plynove",
+                     "Plny": "zaveden",
+                     "Telefon": "zaveden",
+                     "Internet": "zaveden",
+                     "Energeticka narocnost": "usporna",
+                     "Cena": "6890000",
+                         "mena": "CZK",
+                     "Cena za m^2": "29956",
+                     "Provize v cene": "ano",
+                     "Moznost hypoteky": "ano",
+                     "Prodejce": 
+                    {
+                        "Jmeno": "Marketa seranova",
+                        "Firma": "Dream House Reality",
+                        "Hodnoceni": "85%",
+                        "Kontakt": 
+                        {
+                            "Telefon": "605456713",
+                            "Email": "marketa.seranova@dreamhouse.cz"
+                        }
+                    }                
+                },
+                "Zastavena plocha": "132m^2",
+                "Plocha parcely": "332m^2",
+                "Oploceni": "ano",
+                "Sklep": "ano",
+                "Podkrovi": "ne",
+                "Zahrada": "ano",
+                    "Velikost": "190m^2",
+                "Stav domu": "dobry stav"
+            }  
+        }
+    }
+    
