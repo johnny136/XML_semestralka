@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dokumentace k semestrální práci ze značkovacích jazyků</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+				<div>
+					Důležité odkazy:
+					<a href="https://github.com/johnny136/XML_semestralka">GitHub projekt</a>
+				</div>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <header>
+                    <h1>Dokumentace</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#uvod">Úvod</a></li>
+                            <li><a href="#metodika">Metodika</a></li>
+                            <li><a href="#popis-el">Popis elementů</a></li>
+                            <li><a href="#popis-at">Popis atributů</a></li>
+                            <li><a href="#popis-tr">Popis transformace</a></li>
+                            <li><a href="#zaver">Závěr</a></li>
+                        </ul>
+                    </nav>
+                </header>
+				<br>
+                <section>
+                    <h2 id="uvod">Úvod</h2>
+                    <p>XML soubor slouží k nastavení grafických detailů a jednotlivé profily hráčů na jednom počítači, jejichž nastavení se pokaždé vždy trochu liší. Projekt se skládá ze souborů XML (samotná konfigurace), XSD (schéma konfigurace), XSL (soubor potřebný pro transformaci do souboru s příponou JSON), JSON (již přetransformovaný XML soubor) a HTML5 dokumentaci. Tento koncept byl vytvořen pro fiktivní hru. Inspirace nalezena v nastavení hry Zaklínač 3 - Divoký Hon.</p>
+                </section>
+				<br>
+                <section>
+                    <h2 id="metodika">Metodika</h2>
+                    <p>Programy a pomůcky pro vytvoření tohoto projektu byly:</p>
+					<ul>
+						<li>NetBeans IDE 8.2 - použit na psaní XML,XSD,XSL souborů a pro provedení transformace</li>
+						<li>http://www.utilities-online.info/xsdvalidation/#.WPFZN9KLSUk - webová stránka pro porovnání správnosti XML a XSD souborů</li>
+						<li>Notepad++ - byl použit pro psaní HTML5 souboru</li>
+						<li>https://www.w3schools.com - informace z těchto webových stránek pomohli při řešení problémů</li>
+					</ul>
+                </section>
+				<br>
+                <section>
+                    <h2 id="popis-el">Popis elementů</h2>
+                    <p>V této části jsou vypsané a popsané jednotlivé elementy a jaké hodnoty mohou nabývat.</p>
+					<table>
+                        <tr>
+                            <th>Element</th>
+                            <th>Popis</th>
+                            <th>Hodnoty</th>
+                        </tr>
+                        <tr>
+                            <td>konfigurace_hry</td>
+                            <td>Hlavní element, veškeré ostatní jsou vnořeny do tohoto</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+                        <tr>
+                            <td>nastaveni_grafiky</td>
+                            <td>Element, který určuje, že všechny elementy uvnitř udávají nastavení grafiky</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>obecne</td>
+                            <td>Element pro obecne nastavení grafiky</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>rozliseni</td>
+                            <td>Element určující rozliseni obrazovky</td>
+                            <td>Libovolný textový řetězec</td>
+                        </tr>
+						<tr>
+                            <td>vsync</td>
+                            <td>Element určující, zda bude zaplá nebo vyplá vertikální synchronizace obrazu</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>rezim_zobrazeni</td>
+                            <td>Element určující, zda hra poběží přes celou obrazovku nebo v okně</td>
+                            <td>V okne; Cela obrazovka</td>
+                        </tr>
+						<tr>
+                            <td>hustota_zalidneni</td>
+                            <td>Element určující hustotu zalidnění virtuální světa</td>
+                            <td>Nizsi; Stredni; Vyssi; Nejlepsi</td>
+                        </tr>
+						<tr>
+                            <td>stiny</td>
+                            <td>Element určující kvalitu stinů ve hře</td>
+                            <td>Nizsi; Stredni; Vyssi; Nejlepsi</td>
+                        </tr>
+						<tr>
+                            <td>krajina</td>
+                            <td>Element určující krajiny ve hře</td>
+                            <td>Nizsi; Stredni; Vyssi; Nejlepsi</td>
+                        </tr>
+						<tr>
+                            <td>voda</td>
+                            <td>Element určující kvalitu vody ve hře</td>
+                            <td>Nizsi; Stredni; Vyssi; Nejlepsi</td>
+                        </tr>
+						<tr>
+                            <td>uroven_detailu</td>
+                            <td>Element určující kvalitu detailů ve hře</td>
+                            <td>Nizsi; Stredni; Vyssi; Nejlepsi</td>
+                        </tr>
+						<tr>
+                            <td>postprocessing</td>
+                            <td>Element pro nastavení Postprocessing techniky, pro grafiku</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>motion_blur</td>
+                            <td>Element určující zapnutí nebo vypnutí rozmazaní obrazu při pohybu</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>anti-aliasing</td>
+                            <td>Element určující zapnutí nebo vypnutí vyhlazení hran</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>Bloom</td>
+                            <td>Element určující zapnutí nebo vypnutí efektu záře od světlých ploch</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>Vyostrovani</td>
+                            <td>Element určující zapnutí nebo vypnutí vyostrovani obrazu</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>zastineni_okolim</td>
+                            <td>Element určující nastavení zastínění okolními a vedlejšími modely</td>
+                            <td>Nic; SSAO; HBAO+</td>
+                        </tr>
+						<tr>
+                            <td>svetelne_paprsky</td>
+                            <td>Element určující zapnutí nebo vypnutí efektu pro světelné paprsky</td>
+                            <td>Zapnuto; Vypnuto</td>
+                        </tr>
+						<tr>
+                            <td>gamma</td>
+                            <td>Element určující hodnotu stupně Gamma</td>
+                            <td>1-17</td>
+                        </tr>
+						<tr>
+                            <td>uzivatelsky_profil</td>
+                            <td>Element pro určení uzivatelských profilů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>jmeno</td>
+                            <td>Element pro určení identity profilu</td>
+                            <td>Libovolný textový řetězec</td>
+                        </tr>
+						<tr>
+                            <td>postup</td>
+                            <td>Element pro určení dosavadního postupu ve hře</td>
+                            <td>0-100%</td>
+                        </tr>
+						<tr>
+                            <td>nastaveni_profilu</td>
+                            <td>Element pro nastavení profilů, nastavující elementy se nacházejí vnořené v něm</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>zvuk</td>
+                            <td>Element určen pro nastavení zvuků, sjednocuje více pod elementů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>celkova_hlasitost</td>
+                            <td>Element určující hodnotu celkové hlasitosti</td>
+                            <td>0-100%</td>
+                        </tr>
+						<tr>
+                            <td>hlasitost_hudby</td>
+                            <td>Element určující hodnotu hlasitosti hudby</td>
+                            <td>0-100%</td>
+                        </tr>
+						<tr>
+                            <td>hlasitost_zvuku</td>
+                            <td>Element určující hodnotu hlasitosti zvuků</td>
+                            <td>0-100%</td>
+                        </tr>
+						<tr>
+                            <td>hlasitost_dialogu</td>
+                            <td>Element určující hodnotu hlasitosti dialogů</td>
+                            <td>0-100%</td>
+                        </tr>
+						<tr>
+                            <td>ovladani</td>
+                            <td>Element určen pro nastavení ovládání, sjednocuje více pod elementů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>citlivost_mysi</td>
+                            <td>Element určující nastavení citlivosti myši ve hře i rozhraní</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>prevraceni_kamery</td>
+                            <td>Element obsahující elementy pro nastavení převrácení kamery po osách X a Y</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>mys</td>
+                            <td>Element určující převrácení kamery po ose X a Y pro myš</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>ovladac</td>
+                            <td>Element určující převrácení kamery po ose X a Y pro ovladač</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>citlivost_pravePacky</td>
+                            <td>Element určující citlivost pravé páčky u ovladače</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>hratelnost</td>
+                            <td>Element určen pro nastavení hratelnosti, sjednocuje více pod elementů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>vyukove_zpravy</td>
+                            <td>Element určující zapnutí nebo vypnutí vyukových zpráv</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>automaticke_dorazeni</td>
+                            <td>Element určující zapnutí nebo vypnutí automatického doražení nepřítele</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>efekt_rybiOko</td>
+                            <td>Element určující zapnutí nebo vypnutí efekt rybího oka, pro širší rozhled</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>vystredeni_kamery</td>
+                            <td>Element určující zapnutí nebo vypnutí vracení kamery vždy za hráče</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>automaticke_ulozeni</td>
+                            <td>Element určující zapnutí nebo vypnutí vyukových zpráv</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>zvysovaniSil_Protivniku</td>
+                            <td>Element určující zapnutí nebo vypnutí pro nastavení všem protivníkum stejné úrovně jako je hráč</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>jazyk</td>
+                            <td>Element určen pro nastavení jazyka</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>titulky</td>
+                            <td>Element určující zapnutí nebo vypnutí titulek</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>rozhrani</td>
+                            <td>Element určen pro nastavení rozhraní, sjednocuje více pod elementů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>viditelnost</td>
+                            <td>Element určující zapnutí nebo vypnutí uživatelského rozhraní</td>
+                            <td>Zapnuto; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>velikost</td>
+                            <td>Element určující velikost uživatelského rozhraní</td>
+                            <td>Mensi; Vetsi</td>
+                        </tr>
+						<tr>
+                            <td>zobrazovat_zaznamAkci</td>
+                            <td>Element určující zapnutí nebo vypnutí záznamu akcí, které hráč provede</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>minimapa</td>
+                            <td>Element určen pro detailní nastavení minimapy, sjednocuje více pod elementů</td>
+                            <td>Nenabývá žádných hodnot</td>
+                        </tr>
+						<tr>
+                            <td>zobrazeni</td>
+                            <td>Element určující zapnutí nebo vypnutí zobrazení minimapy</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>otaceni</td>
+                            <td>Element určující zapnutí nebo vypnutí otáčení minimapy</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>cesta_kUkolum</td>
+                            <td>Element určující zapnutí nebo vypnutí cesty k úkolům na minimapě</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>zajimava_mista</td>
+                            <td>Element určující zapnutí nebo vypnutí zajímavých míst k průzkumu na minimapě</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>objevena_mista</td>
+                            <td>Element určující zapnutí nebo vypnutí zobrazení již objevených míst na minimapě</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>zobrazovat_ukoly</td>
+                            <td>Element určující zapnutí nebo vypnutí zobrazení aktivních úkolů</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>zobrazeni_stavu</td>
+                            <td>Element určující zobrazení stavu, v jakém se postava nachází</td>
+                            <td>Hodnoty nabývá pomocí svých atributů</td>
+                        </tr>
+						<tr>
+                            <td>zobrazeni_napovedy</td>
+                            <td>Element určující zapnutí nebo vypnutí zobrazení nápovědy v uživatelském rozhraní</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>nahled_poskozenychPredmetu</td>
+                            <td>Element určující zapnutí nebo vypnutí náhledu na poškozené předměty, které má hrdina na sobě</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+                    </table>					
+                </section>
+				<br>
+                <section>
+                    <h2 id="popis-at">Popis atributů</h2>
+                    <p>V této části jsou vypsané a popsané jednotlivé atributy a jaké hodnoty mohou nabývat.</p>
+                    <table>
+                        <tr>
+                            <th>Atribut</th>
+                            <th>Popis</th>
+                            <th>Hodnoty</th>
+                        </tr>
+                        <tr>
+                            <td>vRozhrani</td>
+                            <td>Atribut určující nastavení citlivosti myši v rozhraní hry</td>
+                            <td>1-4</td>
+                        </tr>
+                        <tr>
+                            <td>veHre</td>
+                            <td>Atribut určující nastavení citlivosti myši ve hře</td>
+                            <td>1-4</td>
+                        </tr>
+						<tr>
+                            <td>osaX</td>
+                            <td>Atribut určující zapnutí nebo vypnutí převrácení kamery na ose X</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>osaY</td>
+                            <td>Atribut určující zapnutí nebo vypnutí převrácení kamery na ose Y</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>kamera</td>
+                            <td>Atribut určující nastavení citlivosti pravé páčky ovladače ve hře</td>
+                            <td>1-4</td>
+                        </tr>
+						<tr>
+                            <td>mireni</td>
+                            <td>Atribut určující nastavení citlivosti pravé páčky ovladače ve hře</td>
+                            <td>1-4</td>
+                        </tr>
+						<tr>
+                            <td>dialogy</td>
+                            <td>Atribut určující nastavení jazyku při dialozích</td>
+                            <td>Anglictina; Cestina; Arabstina; Portugalstina; Nemcina; Francouzstina; Spanelstina; Cinstina</td>
+                        </tr>
+						<tr>
+                            <td>texty</td>
+                            <td>Atribut určující nastavení jazyku v psaných textech</td>
+                            <td>Anglictina; Cestina; Arabstina; Portugalstina; Nemcina; Francouzstina; Spanelstina; Cinstina</td>
+                        </tr>
+						<tr>
+                            <td>zivot</td>
+                            <td>Atribut určující zapnutí nebo vypnutí zobrazení života v rámci uživatelského rozhraní</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>mana</td>
+                            <td>Atribut určující zapnutí nebo vypnutí zobrazení many v rámci uživatelského rozhraní</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+						<tr>
+                            <td>energie</td>
+                            <td>Atribut určující zapnutí nebo vypnutí zobrazení energie v rámci uživatelského rozhraní</td>
+                            <td>Zapnout; Vypnout</td>
+                        </tr>
+                    </table>
+                </section>
+				<br>
+                <section>
+                    <h2 id="popis-tr">Popis transformace</h2>
+                    <p>Transformace je postavena na cyklech "xsl:for-each" a jednotlivé údaje se zadávají pomocí tagu "xsl:value-of". Transformace je rozdělená na část grafického nastavení a dále na část nastavení jednotlivých profilů. Díky podmínce se vypisuje nastavení pouze pro profily, které mají odehráno více než 30% hry.</p>
+                </section>
+				<br>
+                <section>
+                    <h2 id="zaver">Závěr</h2>
+                    <p>Výsledkem tohoto projektu bylo naučit se značkovacímu jazyku XML, vytvořit soubor XML, dále k němu vytvořit schéma, které bude kompatibilní. Vytvořit také XSL, které úspěšně bez chyb transformuje XML soubor do souboru JSON. Veškérý postup a detaily tohoto semestrální projektu byly zapsány do této dokumentace napsané v HTML5.</p>
+                </section>
+            </article> 
+        </main>
+        <footer>
+            <p><i>Vytvořil Jan Kladívko / 2. ročník / INFO / CŽU</i></p>
+        </footer>
+    </body>
+</html>

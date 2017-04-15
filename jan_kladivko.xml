@@ -1,230 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="jan_kladivko.xsl"?>
-<realitni_portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jan_kladivko.xsd">
-    <byt>
-        <stav_budovy>dobry stav</stav_budovy>
-        <balkon plocha="0m^2">ne</balkon>
-        <stav_bytu>dobry stav</stav_bytu>
-        <vytah>ne</vytah>
-        <poschodi>prizemi</poschodi>
-        <specifikace>
-            <cislo_zakazky>4698-SDBQ</cislo_zakazky>
-            <adresa>
-                <mesto>Praha 2</mesto>
-                <obec>Nove Mesto</obec>
-                <ulice cislo_popisne="1814" cislo_orientacni="5">Tyrsova</ulice>
-            </adresa>
-            <podlazi_budovy>6</podlazi_budovy>
-            <konstrukce_budovy>cihlova</konstrukce_budovy>
-            <uzitna_plocha>102m^2</uzitna_plocha>
-            <vybavenost>zarizeno</vybavenost>
-            <parkovani pocet_mist="MZ">modra zona</parkovani>
-            <mistnosti>3+1</mistnosti>
-            <socialni_zarizeni>ano</socialni_zarizeni>
-            <lokalita>rusna cast</lokalita>
-            <dopravni_dostupnost>Auto, MHD</dopravni_dostupnost>
-            <obcanska_vybavenost>Restaurace, Obchod, Kulturni zarizeni</obcanska_vybavenost>
-            <ihned_k_dispozici>ano</ihned_k_dispozici>
-            <zdroj_elektriny>230V</zdroj_elektriny>
-            <vodni_zdroj>verejny</vodni_zdroj>
-            <odpad>verejny odpad</odpad>
-            <topeni>ustredni - elektrina</topeni>
-            <plyn>verejny privod</plyn>
-            <telefon>pripojen</telefon>
-            <internet>pripojen</internet>
-            <energeticka_narocnost trida="G">Mimoradne nehospodarna</energeticka_narocnost>
-            <cena mena="CZK">9250000</cena>
-            <cena_za_metrCtverecni>90686</cena_za_metrCtverecni>
-            <provize_v_cene procent="10">ano</provize_v_cene>
-            <moznost_hypoteky>ano</moznost_hypoteky>
-            <prodejce>
-                <jmeno>Stanislav Bozek</jmeno>
-                <firma>Reality 11</firma>
-                <hodnoceni>98%</hodnoceni>
-                <kontakt telefon="728332641" email="stanislav.bozek@reality11.cz"/>
-            </prodejce>
-        </specifikace>
-    </byt>
-    <byt>
-        <stav_budovy>po rekonstrukci</stav_budovy>
-        <balkon plocha="10m^2">ano</balkon>
-        <stav_bytu>novy</stav_bytu>
-        <vytah>ano</vytah>
-        <poschodi>2.</poschodi>
-        <specifikace>
-            <cislo_zakazky>4698-SDBQ</cislo_zakazky>
-            <adresa>
-                <mesto>Praha 8</mesto>
-                <obec>Liben</obec>
-                <ulice cislo_popisne="1475" cislo_orientacni="180">Sokolovska</ulice>
-            </adresa>
-            <podlazi_budovy>8</podlazi_budovy>
-            <konstrukce_budovy>zdena</konstrukce_budovy>
-            <uzitna_plocha>63m^2</uzitna_plocha>
-            <vybavenost>zarizeno</vybavenost>
-            <parkovani pocet_mist="MZ">modra zona</parkovani>
-            <mistnosti>2+kk</mistnosti>
-            <socialni_zarizeni>ano</socialni_zarizeni>
-            <lokalita>klidna cast</lokalita>
-            <dopravni_dostupnost>Auto, MHD</dopravni_dostupnost>
-            <obcanska_vybavenost>skola, skolka, Restaurace, Obchod, Kulturni zarizeni</obcanska_vybavenost>
-            <ihned_k_dispozici>ano</ihned_k_dispozici>
-            <zdroj_elektriny>230V/400V</zdroj_elektriny>
-            <vodni_zdroj>verejny</vodni_zdroj>
-            <odpad>verejna kanalizace</odpad>
-            <topeni>ustredni - dalkove</topeni>
-            <plyn>verejny privod</plyn>
-            <telefon>pripojen</telefon>
-            <internet>pripojen</internet>
-            <energeticka_narocnost trida="B">usporna</energeticka_narocnost>
-            <cena mena="CZK">5640000</cena>
-            <cena_za_metrCtverecni>89524</cena_za_metrCtverecni>
-            <provize_v_cene procent="15">ano</provize_v_cene>
-            <moznost_hypoteky>ano</moznost_hypoteky>
-            <prodejce>
-                <jmeno>Katerina Lepsova</jmeno>
-                <firma>Duna House</firma>
-                <hodnoceni>91%</hodnoceni>
-                <kontakt telefon="606566222" email="k.lepsova@dunahouse.com"/>
-            </prodejce>
-        </specifikace>
-    </byt>
-    <dum>
-        <zastavena_plocha>376m^2</zastavena_plocha>
-        <plocha_parcely>7803m^2</plocha_parcely>
-        <oploceni>ano</oploceni>
-        <sklep>ano</sklep>
-        <podkrovi>ano</podkrovi>
-        <zahrada velikost="7427m^2">ano</zahrada>
-        <stav_domu>dobry stav</stav_domu>
-        <specifikace>
-            <cislo_zakazky>7894-POLQ</cislo_zakazky>
-            <adresa>
-                <mesto>Velke Mezirici</mesto>
-                <obec>zdar nad Sazavou</obec>
-                <ulice cislo_popisne="2010" cislo_orientacni="-">Nad Lalůvkou</ulice>
-            </adresa>
-            <podlazi_budovy>3</podlazi_budovy>
-            <konstrukce_budovy>cihlova</konstrukce_budovy>
-            <uzitna_plocha>350m^2</uzitna_plocha>
-            <vybavenost>castecne zarizeno</vybavenost>
-            <parkovani pocet_mist="6">garaz</parkovani>
-            <mistnosti>5+1</mistnosti>
-            <socialni_zarizeni>ano</socialni_zarizeni>
-            <lokalita>klidna cast</lokalita>
-            <dopravni_dostupnost>Auto, Dalnice, I. trida, II. trida, Vlak</dopravni_dostupnost>
-            <obcanska_vybavenost>skola, skolka, Nakupni centrum, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni, Koupaliste</obcanska_vybavenost>
-            <ihned_k_dispozici>ne</ihned_k_dispozici>
-            <zdroj_elektriny>230V verejny</zdroj_elektriny>
-            <vodni_zdroj>verejny</vodni_zdroj>
-            <odpad>verejny odpad</odpad>
-            <topeni>ustredni - plynove</topeni>
-            <plyn>zaveden</plyn>
-            <telefon>zaveden</telefon>
-            <internet>zaveden</internet>
-            <energeticka_narocnost trida="C">usporna</energeticka_narocnost>
-            <cena mena="CZK">15000000</cena>
-            <cena_za_metrCtverecni>39894</cena_za_metrCtverecni>
-            <provize_v_cene procent="0">ne</provize_v_cene>
-            <moznost_hypoteky>ano</moznost_hypoteky>
-            <prodejce>
-                <jmeno>Jiri Prokes</jmeno>
-                <firma>RK Michalek and Partners</firma>
-                <hodnoceni>86%</hodnoceni>
-                <kontakt telefon="724936711" email="prokes.jiri@mandp.cz"/>
-            </prodejce>
-        </specifikace>
-    </dum>
-    <dum>
-        <zastavena_plocha>152m^2</zastavena_plocha>
-        <plocha_parcely>822m^2</plocha_parcely>
-        <oploceni>ano</oploceni>
-        <sklep>ano</sklep>
-        <podkrovi>ne</podkrovi>
-        <zahrada velikost="670m^2">ano</zahrada>
-        <stav_domu>dobry stav</stav_domu>
-        <specifikace>
-            <cislo_zakazky>9312-ZYXO</cislo_zakazky>
-            <adresa>
-                <mesto>Nova Ves</mesto>
-                <obec>Melnik</obec>
-                <ulice cislo_popisne="48" cislo_orientacni="3">Nova Ves</ulice>
-            </adresa>
-            <podlazi_budovy>3</podlazi_budovy>
-            <konstrukce_budovy>zdena</konstrukce_budovy>
-            <uzitna_plocha>440m^2</uzitna_plocha>
-            <vybavenost>castecne zarizeno</vybavenost>
-            <parkovani pocet_mist="2">garaz</parkovani>
-            <mistnosti>10+21</mistnosti>
-            <socialni_zarizeni>ano</socialni_zarizeni>
-            <lokalita>klidna cast</lokalita>
-            <dopravni_dostupnost>Auto, Autobus, Dalnice, I. trida, II. trida</dopravni_dostupnost>
-            <obcanska_vybavenost>skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni</obcanska_vybavenost>
-            <ihned_k_dispozici>ano</ihned_k_dispozici>
-            <zdroj_elektriny>230V verejny</zdroj_elektriny>
-            <vodni_zdroj>verejny</vodni_zdroj>
-            <odpad>septik</odpad>
-            <topeni>ustredni - tuha paliva</topeni>
-            <plyn>zaveden</plyn>
-            <telefon>zaveden</telefon>
-            <internet>zaveden</internet>
-            <energeticka_narocnost trida="B">usporna</energeticka_narocnost>
-            <cena mena="CZK">13990000</cena>
-            <cena_za_metrCtverecni>31795</cena_za_metrCtverecni>
-            <provize_v_cene procent="0">ne</provize_v_cene>
-            <moznost_hypoteky>ano</moznost_hypoteky>
-            <prodejce>
-                <jmeno>Petr Hlavaty</jmeno>
-                <firma>M and M reality holding a.s.</firma>
-                <hodnoceni>80%</hodnoceni>
-                <kontakt telefon="800949711" email="petr.hlavaty@mmreality.cz"/>
-            </prodejce>
-        </specifikace>
-    </dum>
-    <dum>
-        <zastavena_plocha>132m^2</zastavena_plocha>
-        <plocha_parcely>332m^2</plocha_parcely>
-        <oploceni>ano</oploceni>
-        <sklep>ano</sklep>
-        <podkrovi>ne</podkrovi>
-        <zahrada velikost="190m^2">ano</zahrada>
-        <stav_domu>dobry stav</stav_domu>
-        <specifikace>
-            <cislo_zakazky>1346-AZYO</cislo_zakazky>
-            <adresa>
-                <mesto>Praha 9</mesto>
-                <obec>Horni Pocernice</obec>
-                <ulice cislo_popisne="203" cislo_orientacni="94">Trebesovska</ulice>
-            </adresa>
-            <podlazi_budovy>2</podlazi_budovy>
-            <konstrukce_budovy>cihlova</konstrukce_budovy>
-            <uzitna_plocha>230m^2</uzitna_plocha>
-            <vybavenost>nezarizeno</vybavenost>
-            <parkovani pocet_mist="2">prijezdova cesta</parkovani>
-            <mistnosti>4kk</mistnosti>
-            <socialni_zarizeni>ano</socialni_zarizeni>
-            <lokalita>rusna cast</lokalita>
-            <dopravni_dostupnost>Auto, Dalnice, I. trida, Vlak, MHD</dopravni_dostupnost>
-            <obcanska_vybavenost>skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni</obcanska_vybavenost>
-            <ihned_k_dispozici>ne</ihned_k_dispozici>
-            <zdroj_elektriny>230V verejny</zdroj_elektriny>
-            <vodni_zdroj>verejny</vodni_zdroj>
-            <odpad>verejny odpad</odpad>
-            <topeni>ustredni - plynove</topeni>
-            <plyn>zaveden</plyn>
-            <telefon>zaveden</telefon>
-            <internet>zaveden</internet>
-            <energeticka_narocnost trida="C">usporna</energeticka_narocnost>
-            <cena mena="CZK">6890000</cena>
-            <cena_za_metrCtverecni>29956</cena_za_metrCtverecni>
-            <provize_v_cene procent="20">ano</provize_v_cene>
-            <moznost_hypoteky>ano</moznost_hypoteky>
-            <prodejce>
-                <jmeno>Marketa seranova</jmeno>
-                <firma>Dream House Reality</firma>
-                <hodnoceni>85%</hodnoceni>
-                <kontakt telefon="605456713" email="marketa.seranova@dreamhouse.cz"/>
-            </prodejce>
-        </specifikace>
-    </dum>
-</realitni_portal>
+
+<konfigurace_hry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jan_kladivko.xsd">
+    <nastaveni_grafiky>
+        <obecne>
+            <rozliseni>1920x1080</rozliseni>
+            <vsync>Zapnuto</vsync>
+            <rezim_zobrazeni>Cela obrazovka</rezim_zobrazeni>
+            <hustota_zalidneni>Nejlepsi</hustota_zalidneni>
+            <stiny>Nejlepsi</stiny>
+            <krajina>Nejlepsi</krajina>
+            <voda>Nejlepsi</voda>
+            <hustota_travy>Nejlepsi</hustota_travy>
+            <kvalita_textur>Nejlepsi</kvalita_textur>
+            <uroven_detailu>Nejlepsi</uroven_detailu>
+        </obecne>
+        <postprocessing>
+            <motion_blur>Zapnuto</motion_blur>
+            <anti-aliasing>Zapnuto</anti-aliasing>
+            <bloom>Zapnuto</bloom>
+            <vyostrovani>Zapnuto</vyostrovani>
+            <zastineni_okolim>HBAO+</zastineni_okolim>
+            <svetelne_paprsky>Zapnuto</svetelne_paprsky>
+        </postprocessing>
+        <gamma>9</gamma>            
+    </nastaveni_grafiky>
+    
+    <!--Uzivatelsky profil c.1-->
+    <uzivatelsky_profil>
+        <jmeno>johnny136</jmeno>
+        <postup>100</postup>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>100</celkova_hlasitost>
+                <hlasitost_hudby>100</hlasitost_hudby>
+                <hlasitost_zvuku>100</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+                </prevraceni_kamery>
+                <citlivost_pravePacky kamera="1" mireni="1"/>
+            </ovladani>
+            <hratelnost>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <automaticke_dorazeni>Vypnuto</automaticke_dorazeni>
+                <efekt_rybiOko>Vypnuto</efekt_rybiOko>
+                <vystredeni_kamery>Zapnuto</vystredeni_kamery>
+                <automaticke_ulozeni>Zapnuto</automaticke_ulozeni>
+                <zvysovaniSil_protivniku>Zapnuto</zvysovaniSil_protivniku>     
+            </hratelnost>
+            <jazyk dialogy="Anglictina" texty="Cestina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozhrani>
+                <viditelnost>Zapnuto</viditelnost>
+                <velikost>Vetsi</velikost>
+                <zobrazovat_zaznamAkci>Zapnuto</zobrazovat_zaznamAkci>
+                <minimapa>
+                    <zobrazeni>Zapnuto</zobrazeni>
+                    <otaceni>Zapnuto</otaceni>
+                    <cesta_kUkolum>Zapnuto</cesta_kUkolum>
+                    <zajimava_mista>Zapnuto</zajimava_mista>
+                    <objevena_mista>Zapnuto</objevena_mista>
+                </minimapa>
+                <zobrazovat_ukoly>Zapnuto</zobrazovat_ukoly>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozhrani>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+    
+    <!--Uzivatelsky profil c.2-->
+    <uzivatelsky_profil>
+        <jmeno>Debbie</jmeno>
+        <postup>23</postup>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>60</celkova_hlasitost>
+                <hlasitost_hudby>80</hlasitost_hudby>
+                <hlasitost_zvuku>80</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Zapnuto"/>
+                </prevraceni_kamery>
+                <citlivost_pravePacky kamera="2" mireni="1"/>
+            </ovladani>
+            <hratelnost>
+                <vyukove_zpravy>Zapnuto</vyukove_zpravy>
+                <automaticke_dorazeni>Zapnuto</automaticke_dorazeni>
+                <efekt_rybiOko>Vypnuto</efekt_rybiOko>
+                <vystredeni_kamery>Zapnuto</vystredeni_kamery>
+                <automaticke_ulozeni>Zapnuto</automaticke_ulozeni>
+                <zvysovaniSil_protivniku>Vypnuto</zvysovaniSil_protivniku>     
+            </hratelnost>
+            <jazyk dialogy="Cestina" texty="Cestina">
+                <titulky>Vypnuto</titulky>
+            </jazyk>
+            <rozhrani>
+                <viditelnost>Zapnuto</viditelnost>
+                <velikost>Vetsi</velikost>
+                <zobrazovat_zaznamAkci>Zapnuto</zobrazovat_zaznamAkci>
+                <minimapa>
+                    <zobrazeni>Zapnuto</zobrazeni>
+                    <otaceni>Zapnuto</otaceni>
+                    <cesta_kUkolum>Zapnuto</cesta_kUkolum>
+                    <zajimava_mista>Zapnuto</zajimava_mista>
+                    <objevena_mista>Zapnuto</objevena_mista>
+                </minimapa>
+                <zobrazovat_ukoly>Zapnuto</zobrazovat_ukoly>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Zapnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozhrani>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+    
+    <!--Uzivatelsky profil c.3-->
+    <uzivatelsky_profil>
+        <jmeno>HardcorePlayer666</jmeno>
+        <postup>41</postup>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>100</celkova_hlasitost>
+                <hlasitost_hudby>0</hlasitost_hudby>
+                <hlasitost_zvuku>100</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+            <ovladani>
+                <citlivost_mysi vRozhrani="0" veHre="0"/>
+                <prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+                </prevraceni_kamery>
+                <citlivost_pravePacky kamera="1" mireni="1"/>
+            </ovladani>
+            <hratelnost>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <automaticke_dorazeni>Vypnuto</automaticke_dorazeni>
+                <efekt_rybiOko>Vypnuto</efekt_rybiOko>
+                <vystredeni_kamery>Zapnuto</vystredeni_kamery>
+                <automaticke_ulozeni>Vypnuto</automaticke_ulozeni>
+                <zvysovaniSil_protivniku>Zapnuto</zvysovaniSil_protivniku>     
+            </hratelnost>
+            <jazyk dialogy="Anglictina" texty="Anglictina">
+                <titulky>Vypnuto</titulky>
+            </jazyk>
+            <rozhrani>
+                <viditelnost>Vypnuto</viditelnost>
+                <velikost>Vetsi</velikost>
+                <zobrazovat_zaznamAkci>Vypnuto</zobrazovat_zaznamAkci>
+                <minimapa>
+                    <zobrazeni>Vypnuto</zobrazeni>
+                    <otaceni>Vypnuto</otaceni>
+                    <cesta_kUkolum>Vypnuto</cesta_kUkolum>
+                    <zajimava_mista>Vypnuto</zajimava_mista>
+                    <objevena_mista>Vypnuto</objevena_mista>
+                </minimapa>
+                <zobrazovat_ukoly>Vypnuto</zobrazovat_ukoly>
+                <zobrazeni_stavu zivot="Vypnuto" mana="Vypnuto" energie="Vypnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Vypnuto</nahled_poskozenychPredmetu>
+            </rozhrani>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+    
+    <!--Uzivatelsky profil c.4-->
+    <uzivatelsky_profil>
+        <jmeno>LeManuEl99</jmeno>
+        <postup>63</postup>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>50</celkova_hlasitost>
+                <hlasitost_hudby>100</hlasitost_hudby>
+                <hlasitost_zvuku>100</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+            <ovladani>
+                <citlivost_mysi vRozhrani="2" veHre="3"/>
+                <prevraceni_kamery>
+                    <mys osaX="Zapnuto" osaY="Zapnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+                </prevraceni_kamery>
+                <citlivost_pravePacky kamera="1" mireni="1"/>
+            </ovladani>
+            <hratelnost>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <automaticke_dorazeni>Zapnuto</automaticke_dorazeni>
+                <efekt_rybiOko>Zapnuto</efekt_rybiOko>
+                <vystredeni_kamery>Zapnuto</vystredeni_kamery>
+                <automaticke_ulozeni>Zapnuto</automaticke_ulozeni>
+                <zvysovaniSil_protivniku>Zapnuto</zvysovaniSil_protivniku>     
+            </hratelnost>
+            <jazyk dialogy="Anglictina" texty="Nemcina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozhrani>
+                <viditelnost>Zapnuto</viditelnost>
+                <velikost>Mensi</velikost>
+                <zobrazovat_zaznamAkci>Zapnuto</zobrazovat_zaznamAkci>
+                <minimapa>
+                    <zobrazeni>Zapnuto</zobrazeni>
+                    <otaceni>Zapnuto</otaceni>
+                    <cesta_kUkolum>Zapnuto</cesta_kUkolum>
+                    <zajimava_mista>Zapnuto</zajimava_mista>
+                    <objevena_mista>Zapnuto</objevena_mista>
+                </minimapa>
+                <zobrazovat_ukoly>Zapnuto</zobrazovat_ukoly>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozhrani>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+    
+    <!--Uzivatelsky profil c.5-->
+    <uzivatelsky_profil>
+        <jmeno>francois_villon</jmeno>
+        <postup>37</postup>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>100</celkova_hlasitost>
+                <hlasitost_hudby>70</hlasitost_hudby>
+                <hlasitost_zvuku>87</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+            <ovladani>
+                <citlivost_mysi vRozhrani="0" veHre="0"/>
+                <prevraceni_kamery>
+                    <mys osaX="Zapnuto" osaY="Zapnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+                </prevraceni_kamery>
+                <citlivost_pravePacky kamera="1" mireni="3"/>
+            </ovladani>
+            <hratelnost>
+                <vyukove_zpravy>Zapnuto</vyukove_zpravy>
+                <automaticke_dorazeni>Zapnuto</automaticke_dorazeni>
+                <efekt_rybiOko>Vypnuto</efekt_rybiOko>
+                <vystredeni_kamery>Vypnuto</vystredeni_kamery>
+                <automaticke_ulozeni>Zapnuto</automaticke_ulozeni>
+                <zvysovaniSil_protivniku>Vypnuto</zvysovaniSil_protivniku>     
+            </hratelnost>
+            <jazyk dialogy="Francouzstina" texty="Francouzstina">
+                <titulky>Vypnuto</titulky>
+            </jazyk>
+            <rozhrani>
+                <viditelnost>Zapnuto</viditelnost>
+                <velikost>Vetsi</velikost>
+                <zobrazovat_zaznamAkci>Zapnuto</zobrazovat_zaznamAkci>
+                <minimapa>
+                    <zobrazeni>Zapnuto</zobrazeni>
+                    <otaceni>Vypnuto</otaceni>
+                    <cesta_kUkolum>Zapnuto</cesta_kUkolum>
+                    <zajimava_mista>Zapnuto</zajimava_mista>
+                    <objevena_mista>Zapnuto</objevena_mista>
+                </minimapa>
+                <zobrazovat_ukoly>Zapnuto</zobrazovat_ukoly>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Zapnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozhrani>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+</konfigurace_hry>

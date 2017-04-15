@@ -1,304 +1,349 @@
 
     {
-        "Realitni portal s nemovitostmi":
+        "Konfigurace hry":
         {
-            
-            "Byt":
+            "Nastaveni grafiky":
             {
-                "Specifikace":
+                "Obecne":
                 {
-                    "Cislo zakazky": "4698-SDBQ",
-                    "Adresa": 
-                    {
-                        "Mesto": "Praha 2",
-                        "Obec": "Nove Mesto",
-                        "Ulice": 
-                        {
-                            "Cislo popisne": "1814",
-                            "Cislo orientanci": "5"
-                        }
-                    },
-                     "Podlazi budovy": "6",
-                     "Konstrukce budovy": "cihlova",
-                     "Uzitna plocha": "102m^2",
-                     "Vybavenost": "zarizeno",
-                     "Parkovani": "modra zona",
-                     "Mistnosti": "3+1",
-                     "Socialni zarizeni": "ano",
-                     "Lokalita": "rusna cast",
-                     "Dopravni dostupnost": "Auto, MHD",
-                     "Obcanska vybavenost": "Restaurace, Obchod, Kulturni zarizeni",
-                     "Ihned k dispozici": "ano",
-                     "Zdroj elektriny": "230V",
-                     "Vodni zdroj": "verejny",
-                     "Odpad": "verejny odpad",
-                     "Topeni": "ustredni - elektrina",
-                     "Plny": "verejny privod",
-                     "Telefon": "pripojen",
-                     "Internet": "pripojen",
-                     "Energeticka narocnost": "Mimoradne nehospodarna",
-                     "Cena": "9250000",
-                         "mena": "CZK",
-                     "Cena za m^2": "90686",
-                     "Provize v cene": "ano",
-                     "Moznost hypoteky": "ano",
-                     "Prodejce": 
-                    {
-                        "Jmeno": "Stanislav Bozek",
-                        "Firma": "Reality 11",
-                        "Hodnoceni": "98%",
-                        "Kontakt": 
-                        {
-                            "Telefon": "728332641",
-                            "Email": "stanislav.bozek@reality11.cz"
-                        }
-                    }                
+                    "Rozliseni": "1920x1080",
+                    "VSync": "Zapnuto",
+                    "Rezim zobrazeni": "Cela obrazovka",
+                    "Hustota_zalidneni": "Nejlepsi",
+                    "Stiny": "Nejlepsi",
+                    "Krajina": "Nejlepsi",
+                    "Voda": "Nejlepsi",
+                    "Hustota travy": "Nejlepsi",
+                    "Kvalita textur": "Nejlepsi",
+                    "Uroven detailu": "Nejlepsi"
                 },
-                "Stav budovy": "dobry stav",
-                "Balkon": "ne",
-                    "plocha": "0m^2",
-                "Stav bytu": "dobry stav",
-                "Vytah": "ne",
-                "Poschodi": "prizemi"
+                "Postprocessing":
+                {
+                    "Motion Blur": "Zapnuto",
+                    "Anti-Aliasing": "Zapnuto",
+                    "Bloom": "Zapnuto",
+                    "Vyostrovani": "Zapnuto",
+                    "Zastineni okolim": "HBAO+",
+                    "Svetelne paprsky": "Zapnuto"
+                },
+                "Gamma": "9"
             },
-            "Byt":
+            "Uzivatelsky profil":
             {
-                "Specifikace":
+                "Jmeno": "johnny136",
+                "Postup": "100%",
+                "Nastaveni profilu":
                 {
-                    "Cislo zakazky": "4698-SDBQ",
-                    "Adresa": 
+                    "Zvuk":
                     {
-                        "Mesto": "Praha 8",
-                        "Obec": "Liben",
-                        "Ulice": 
+                        "Celkova hlasitost": "100%",
+                        "Hlasitost hudby": "100%",
+                        "Hlasitost zvuku": "100%",
+                        "Hlasitost dialogu": "100%"
+                    },
+                    "Ovladani":
+                    {
+                        "Citlivost mysi":
                         {
-                            "Cislo popisne": "1475",
-                            "Cislo orientanci": "180"
+                            "V rozhrani": "1",
+                            "Ve hre": "1"                            
+                        },
+                        "Prevraceni kamery":
+                        {
+                            "Mys":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto" 
+                            },
+                            "Ovladac":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto"
+                            }
+                        },
+                        "Citlivost prave packy":
+                        {
+                            "Kamera": "1",
+                            "Mireni": "1" 
                         }
                     },
-                     "Podlazi budovy": "8",
-                     "Konstrukce budovy": "zdena",
-                     "Uzitna plocha": "63m^2",
-                     "Vybavenost": "zarizeno",
-                     "Parkovani": "modra zona",
-                     "Mistnosti": "2+kk",
-                     "Socialni zarizeni": "ano",
-                     "Lokalita": "klidna cast",
-                     "Dopravni dostupnost": "Auto, MHD",
-                     "Obcanska vybavenost": "skola, skolka, Restaurace, Obchod, Kulturni zarizeni",
-                     "Ihned k dispozici": "ano",
-                     "Zdroj elektriny": "230V/400V",
-                     "Vodni zdroj": "verejny",
-                     "Odpad": "verejna kanalizace",
-                     "Topeni": "ustredni - dalkove",
-                     "Plny": "verejny privod",
-                     "Telefon": "pripojen",
-                     "Internet": "pripojen",
-                     "Energeticka narocnost": "usporna",
-                     "Cena": "5640000",
-                         "mena": "CZK",
-                     "Cena za m^2": "89524",
-                     "Provize v cene": "ano",
-                     "Moznost hypoteky": "ano",
-                     "Prodejce": 
+                    "Hratelnost":
                     {
-                        "Jmeno": "Katerina Lepsova",
-                        "Firma": "Duna House",
-                        "Hodnoceni": "91%",
-                        "Kontakt": 
+                        "Vyukove zpravy": "Vypnuto",
+                        "Automaticke dorazeni": "Vypnuto",
+                        "Efekt Rybi oko": "Vypnuto",
+                        "Vystredeni kamery": "Zapnuto",
+                        "Automaticke ulozeni": "Zapnuto",
+                        "Zvysovani sil protivniku": "Zapnuto"
+                    },
+                    "Jazyk":
+                    {
+                        "Dialogy": "Anglictina",
+                        "Texty": "Cestina",
+                        "Titulky": "Zapnuto"
+                    },
+                    "Rozhrani":
+                    {
+                        "Viditelnost": "Zapnuto",
+                        "Velikost": "Vetsi",
+                        "Zobrazovat zaznam akci": "Zapnuto",
+                        "Minimapa":
                         {
-                            "Telefon": "606566222",
-                            "Email": "k.lepsova@dunahouse.com"
-                        }
-                    }                
+                            "Zobrazeni": "Zapnuto",
+                            "Otaceni": "Zapnuto",
+                            "Cesta k ukolum": "Zapnuto",
+                            "Zajimava mista": "Zapnuto",
+                            "Objevena mista": "Zapnuto"
+                        },
+                        "Zobrazovat ukoly": "Zapnuto",
+                        "Zobrazeni stavu":
+                        {
+                            "Zivoty": "Zapnuto",
+                            "Mana": "Zapnuto",
+                            "Energie": "Zapnuto"
+                        },
+                        "Zobrazeni napovedy": "Vypnuto",
+                        "Nahled poskozenych predmetu": "Zapnuto"
+                    }
+                }
                 },
-                "Stav budovy": "po rekonstrukci",
-                "Balkon": "ano",
-                    "plocha": "10m^2",
-                "Stav bytu": "novy",
-                "Vytah": "ano",
-                "Poschodi": "2."
-            }, 
-            "Dum":
-            {   
-                "Specifikace":
+            "Uzivatelsky profil":
+            {
+                "Jmeno": "HardcorePlayer666",
+                "Postup": "41%",
+                "Nastaveni profilu":
                 {
-                    "Cislo zakazky": "7894-POLQ",
-                    "Adresa": 
+                    "Zvuk":
                     {
-                        "Mesto": "Velke Mezirici",
-                        "Obec": "zdar nad Sazavou",
-                        "Ulice": 
+                        "Celkova hlasitost": "100%",
+                        "Hlasitost hudby": "0%",
+                        "Hlasitost zvuku": "100%",
+                        "Hlasitost dialogu": "100%"
+                    },
+                    "Ovladani":
+                    {
+                        "Citlivost mysi":
                         {
-                            "Cislo popisne": "2010",
-                            "Cislo orientanci": "-"
+                            "V rozhrani": "0",
+                            "Ve hre": "0"                            
+                        },
+                        "Prevraceni kamery":
+                        {
+                            "Mys":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto" 
+                            },
+                            "Ovladac":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto"
+                            }
+                        },
+                        "Citlivost prave packy":
+                        {
+                            "Kamera": "1",
+                            "Mireni": "1" 
                         }
                     },
-                     "Podlazi budovy": "3",
-                     "Konstrukce budovy": "cihlova",
-                     "Uzitna plocha": "350m^2",
-                     "Vybavenost": "castecne zarizeno",
-                     "Parkovani": "garaz",
-                     "Mistnosti": "5+1",
-                     "Socialni zarizeni": "ano",
-                     "Lokalita": "klidna cast",
-                     "Dopravni dostupnost": "Auto, Dalnice, I. trida, II. trida, Vlak",
-                     "Obcanska vybavenost": "skola, skolka, Nakupni centrum, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni, Koupaliste",
-                     "Ihned k dispozici": "ne",
-                     "Zdroj elektriny": "230V verejny",
-                     "Vodni zdroj": "verejny",
-                     "Odpad": "verejny odpad",
-                     "Topeni": "ustredni - plynove",
-                     "Plny": "zaveden",
-                     "Telefon": "zaveden",
-                     "Internet": "zaveden",
-                     "Energeticka narocnost": "usporna",
-                     "Cena": "15000000",
-                         "mena": "CZK",
-                     "Cena za m^2": "39894",
-                     "Provize v cene": "ne",
-                     "Moznost hypoteky": "ano",
-                     "Prodejce": 
+                    "Hratelnost":
                     {
-                        "Jmeno": "Jiri Prokes",
-                        "Firma": "RK Michalek and Partners",
-                        "Hodnoceni": "86%",
-                        "Kontakt": 
+                        "Vyukove zpravy": "Vypnuto",
+                        "Automaticke dorazeni": "Vypnuto",
+                        "Efekt Rybi oko": "Vypnuto",
+                        "Vystredeni kamery": "Zapnuto",
+                        "Automaticke ulozeni": "Vypnuto",
+                        "Zvysovani sil protivniku": "Zapnuto"
+                    },
+                    "Jazyk":
+                    {
+                        "Dialogy": "Anglictina",
+                        "Texty": "Anglictina",
+                        "Titulky": "Vypnuto"
+                    },
+                    "Rozhrani":
+                    {
+                        "Viditelnost": "Vypnuto",
+                        "Velikost": "Vetsi",
+                        "Zobrazovat zaznam akci": "Vypnuto",
+                        "Minimapa":
                         {
-                            "Telefon": "724936711",
-                            "Email": "prokes.jiri@mandp.cz"
-                        }
-                    }                
+                            "Zobrazeni": "Vypnuto",
+                            "Otaceni": "Vypnuto",
+                            "Cesta k ukolum": "Vypnuto",
+                            "Zajimava mista": "Vypnuto",
+                            "Objevena mista": "Vypnuto"
+                        },
+                        "Zobrazovat ukoly": "Vypnuto",
+                        "Zobrazeni stavu":
+                        {
+                            "Zivoty": "Vypnuto",
+                            "Mana": "Vypnuto",
+                            "Energie": "Vypnuto"
+                        },
+                        "Zobrazeni napovedy": "Vypnuto",
+                        "Nahled poskozenych predmetu": "Vypnuto"
+                    }
+                }
                 },
-                "Zastavena plocha": "376m^2",
-                "Plocha parcely": "7803m^2",
-                "Oploceni": "ano",
-                "Sklep": "ano",
-                "Podkrovi": "ano",
-                "Zahrada": "ano",
-                    "Velikost": "7427m^2",
-                "Stav domu": "dobry stav"
-            }, 
-            "Dum":
-            {   
-                "Specifikace":
+            "Uzivatelsky profil":
+            {
+                "Jmeno": "LeManuEl99",
+                "Postup": "63%",
+                "Nastaveni profilu":
                 {
-                    "Cislo zakazky": "9312-ZYXO",
-                    "Adresa": 
+                    "Zvuk":
                     {
-                        "Mesto": "Nova Ves",
-                        "Obec": "Melnik",
-                        "Ulice": 
+                        "Celkova hlasitost": "50%",
+                        "Hlasitost hudby": "100%",
+                        "Hlasitost zvuku": "100%",
+                        "Hlasitost dialogu": "100%"
+                    },
+                    "Ovladani":
+                    {
+                        "Citlivost mysi":
                         {
-                            "Cislo popisne": "48",
-                            "Cislo orientanci": "3"
+                            "V rozhrani": "2",
+                            "Ve hre": "3"                            
+                        },
+                        "Prevraceni kamery":
+                        {
+                            "Mys":
+                            {
+                                "Osa X": "Zapnuto",
+                                "Osa Y": "Zapnuto" 
+                            },
+                            "Ovladac":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto"
+                            }
+                        },
+                        "Citlivost prave packy":
+                        {
+                            "Kamera": "1",
+                            "Mireni": "1" 
                         }
                     },
-                     "Podlazi budovy": "3",
-                     "Konstrukce budovy": "zdena",
-                     "Uzitna plocha": "440m^2",
-                     "Vybavenost": "castecne zarizeno",
-                     "Parkovani": "garaz",
-                     "Mistnosti": "10+21",
-                     "Socialni zarizeni": "ano",
-                     "Lokalita": "klidna cast",
-                     "Dopravni dostupnost": "Auto, Autobus, Dalnice, I. trida, II. trida",
-                     "Obcanska vybavenost": "skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni",
-                     "Ihned k dispozici": "ano",
-                     "Zdroj elektriny": "230V verejny",
-                     "Vodni zdroj": "verejny",
-                     "Odpad": "septik",
-                     "Topeni": "ustredni - tuha paliva",
-                     "Plny": "zaveden",
-                     "Telefon": "zaveden",
-                     "Internet": "zaveden",
-                     "Energeticka narocnost": "usporna",
-                     "Cena": "13990000",
-                         "mena": "CZK",
-                     "Cena za m^2": "31795",
-                     "Provize v cene": "ne",
-                     "Moznost hypoteky": "ano",
-                     "Prodejce": 
+                    "Hratelnost":
                     {
-                        "Jmeno": "Petr Hlavaty",
-                        "Firma": "M and M reality holding a.s.",
-                        "Hodnoceni": "80%",
-                        "Kontakt": 
+                        "Vyukove zpravy": "Vypnuto",
+                        "Automaticke dorazeni": "Zapnuto",
+                        "Efekt Rybi oko": "Zapnuto",
+                        "Vystredeni kamery": "Zapnuto",
+                        "Automaticke ulozeni": "Zapnuto",
+                        "Zvysovani sil protivniku": "Zapnuto"
+                    },
+                    "Jazyk":
+                    {
+                        "Dialogy": "Anglictina",
+                        "Texty": "Nemcina",
+                        "Titulky": "Zapnuto"
+                    },
+                    "Rozhrani":
+                    {
+                        "Viditelnost": "Zapnuto",
+                        "Velikost": "Mensi",
+                        "Zobrazovat zaznam akci": "Zapnuto",
+                        "Minimapa":
                         {
-                            "Telefon": "800949711",
-                            "Email": "petr.hlavaty@mmreality.cz"
-                        }
-                    }                
+                            "Zobrazeni": "Zapnuto",
+                            "Otaceni": "Zapnuto",
+                            "Cesta k ukolum": "Zapnuto",
+                            "Zajimava mista": "Zapnuto",
+                            "Objevena mista": "Zapnuto"
+                        },
+                        "Zobrazovat ukoly": "Zapnuto",
+                        "Zobrazeni stavu":
+                        {
+                            "Zivoty": "Zapnuto",
+                            "Mana": "Zapnuto",
+                            "Energie": "Zapnuto"
+                        },
+                        "Zobrazeni napovedy": "Vypnuto",
+                        "Nahled poskozenych predmetu": "Zapnuto"
+                    }
+                }
                 },
-                "Zastavena plocha": "152m^2",
-                "Plocha parcely": "822m^2",
-                "Oploceni": "ano",
-                "Sklep": "ano",
-                "Podkrovi": "ne",
-                "Zahrada": "ano",
-                    "Velikost": "670m^2",
-                "Stav domu": "dobry stav"
-            }, 
-            "Dum":
-            {   
-                "Specifikace":
+            "Uzivatelsky profil":
+            {
+                "Jmeno": "francois_villon",
+                "Postup": "37%",
+                "Nastaveni profilu":
                 {
-                    "Cislo zakazky": "1346-AZYO",
-                    "Adresa": 
+                    "Zvuk":
                     {
-                        "Mesto": "Praha 9",
-                        "Obec": "Horni Pocernice",
-                        "Ulice": 
+                        "Celkova hlasitost": "100%",
+                        "Hlasitost hudby": "70%",
+                        "Hlasitost zvuku": "87%",
+                        "Hlasitost dialogu": "100%"
+                    },
+                    "Ovladani":
+                    {
+                        "Citlivost mysi":
                         {
-                            "Cislo popisne": "203",
-                            "Cislo orientanci": "94"
+                            "V rozhrani": "0",
+                            "Ve hre": "0"                            
+                        },
+                        "Prevraceni kamery":
+                        {
+                            "Mys":
+                            {
+                                "Osa X": "Zapnuto",
+                                "Osa Y": "Zapnuto" 
+                            },
+                            "Ovladac":
+                            {
+                                "Osa X": "Vypnuto",
+                                "Osa Y": "Vypnuto"
+                            }
+                        },
+                        "Citlivost prave packy":
+                        {
+                            "Kamera": "1",
+                            "Mireni": "3" 
                         }
                     },
-                     "Podlazi budovy": "2",
-                     "Konstrukce budovy": "cihlova",
-                     "Uzitna plocha": "230m^2",
-                     "Vybavenost": "nezarizeno",
-                     "Parkovani": "prijezdova cesta",
-                     "Mistnosti": "4kk",
-                     "Socialni zarizeni": "ano",
-                     "Lokalita": "rusna cast",
-                     "Dopravni dostupnost": "Auto, Dalnice, I. trida, Vlak, MHD",
-                     "Obcanska vybavenost": "skola, skolka, Obchod, Restaurace, Posta, Mistni urad, Lekar, Kulturni zarizeni",
-                     "Ihned k dispozici": "ne",
-                     "Zdroj elektriny": "230V verejny",
-                     "Vodni zdroj": "verejny",
-                     "Odpad": "verejny odpad",
-                     "Topeni": "ustredni - plynove",
-                     "Plny": "zaveden",
-                     "Telefon": "zaveden",
-                     "Internet": "zaveden",
-                     "Energeticka narocnost": "usporna",
-                     "Cena": "6890000",
-                         "mena": "CZK",
-                     "Cena za m^2": "29956",
-                     "Provize v cene": "ano",
-                     "Moznost hypoteky": "ano",
-                     "Prodejce": 
+                    "Hratelnost":
                     {
-                        "Jmeno": "Marketa seranova",
-                        "Firma": "Dream House Reality",
-                        "Hodnoceni": "85%",
-                        "Kontakt": 
+                        "Vyukove zpravy": "Zapnuto",
+                        "Automaticke dorazeni": "Zapnuto",
+                        "Efekt Rybi oko": "Vypnuto",
+                        "Vystredeni kamery": "Vypnuto",
+                        "Automaticke ulozeni": "Zapnuto",
+                        "Zvysovani sil protivniku": "Vypnuto"
+                    },
+                    "Jazyk":
+                    {
+                        "Dialogy": "Francouzstina",
+                        "Texty": "Francouzstina",
+                        "Titulky": "Vypnuto"
+                    },
+                    "Rozhrani":
+                    {
+                        "Viditelnost": "Zapnuto",
+                        "Velikost": "Vetsi",
+                        "Zobrazovat zaznam akci": "Zapnuto",
+                        "Minimapa":
                         {
-                            "Telefon": "605456713",
-                            "Email": "marketa.seranova@dreamhouse.cz"
-                        }
-                    }                
-                },
-                "Zastavena plocha": "132m^2",
-                "Plocha parcely": "332m^2",
-                "Oploceni": "ano",
-                "Sklep": "ano",
-                "Podkrovi": "ne",
-                "Zahrada": "ano",
-                    "Velikost": "190m^2",
-                "Stav domu": "dobry stav"
-            }  
+                            "Zobrazeni": "Zapnuto",
+                            "Otaceni": "Vypnuto",
+                            "Cesta k ukolum": "Zapnuto",
+                            "Zajimava mista": "Zapnuto",
+                            "Objevena mista": "Zapnuto"
+                        },
+                        "Zobrazovat ukoly": "Zapnuto",
+                        "Zobrazeni stavu":
+                        {
+                            "Zivoty": "Zapnuto",
+                            "Mana": "Zapnuto",
+                            "Energie": "Zapnuto"
+                        },
+                        "Zobrazeni napovedy": "Zapnuto",
+                        "Nahled poskozenych predmetu": "Zapnuto"
+                    }
+                }
+                } 
         }
-    }
+    }    
     
